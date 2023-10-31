@@ -1,0 +1,591 @@
+{/* Lottery */}
+<>
+<Components.Block
+templateName="home-bonuses"
+content={[
+//EN
+{
+id: 'apple_lottery',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMEo5QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4245e8c913335413ad5f2862541b00e84e8132c0/n1bet-apple-lottery-1656x500-sl-dsktp-part-2.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMEI5QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--57817c9d00a7d4a3f36edfbe1c456b71ca6bec59/n1bet-apple-lottery-1656x500-sl-dsktp-part-1.png',
+},
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBejk5QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--86ea414f33ec9b19c864ad599a8767ef2dca74e2/n1bet-apple-lottery-1040x640-sl-mb-part-2.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBejU5QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4de7fecb84967885984261fa3c34753ffcff1c4d/n1bet-apple-lottery-1040x640-sl-mb-part-1.png',
+},
+},
+image: '',
+pretitle: '',
+title: 'Apple Lottery',
+subtitle: 'iPhone 15 + 1,500 EUR + 1,000 FS',  
+isSignIn: true,
+buttons: {
+anon: {
+isModal: true,
+text: 'Sign Up',
+action: 'sign-up',
+},
+user: {
+text: 'Ticket Up',
+action: '/lottery/apple-lottery',
+},
+},
+},
+//DE
+{
+id: 'apple_lottery',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMEo5QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4245e8c913335413ad5f2862541b00e84e8132c0/n1bet-apple-lottery-1656x500-sl-dsktp-part-2.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMEI5QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--57817c9d00a7d4a3f36edfbe1c456b71ca6bec59/n1bet-apple-lottery-1656x500-sl-dsktp-part-1.png',
+},
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBejk5QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--86ea414f33ec9b19c864ad599a8767ef2dca74e2/n1bet-apple-lottery-1040x640-sl-mb-part-2.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBejU5QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4de7fecb84967885984261fa3c34753ffcff1c4d/n1bet-apple-lottery-1040x640-sl-mb-part-1.png',
+},
+},
+image: '',
+pretitle: '',
+title: 'Apple Lotterie',
+subtitle: 'iPhone 15 + 1,500 EUR + 1,000 FS',
+isSignIn: true,                 
+buttons: {
+anon: {
+isModal: true,
+text: 'Anmelden',
+action: 'sign-up',
+},
+user: {
+text: 'Tickets holen',
+action: '/lottery/apple-lottery',
+},
+},
+}
+]}
+/>
+</>
+{/* Lucky Box */}
+<>
+<Components.Block
+templateName="home-bonuses"
+content={[
+//EN
+{
+id: 'lucky-box',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK25pQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--326daa27975ae4cb8764bfe465cc98e035f17934/n1bet-lucky-box-season-2-animate-slider-1650x500px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ZpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--124864e6d584204f5aaa81a39d2994f51efe6618/n1bet-lucky-box-season-2-animate-slider-1650x500px.png', },
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ppQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4acabfc989ec0ee46bebe640156cac53a3fa9124/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9bd3894bb8885b2b8f260b08d874a0ccc657c0ab/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.png',
+},
+},
+image: '',
+pretitle: 'Open Daily',
+title: <>Lucky Box</>,
+subtitle: <>Up to 15,000 EUR!</>,
+isSignIn: true,               
+buttons: {
+anon: {
+isModal: true,
+text: 'Sign up',
+action: 'sign-up',
+},
+user: {
+text: 'Learn more',
+action: '/lucky-box',
+},
+},
+},
+//DE
+{
+id: 'lucky-box',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK25pQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--326daa27975ae4cb8764bfe465cc98e035f17934/n1bet-lucky-box-season-2-animate-slider-1650x500px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ZpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--124864e6d584204f5aaa81a39d2994f51efe6618/n1bet-lucky-box-season-2-animate-slider-1650x500px.png', },
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ppQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4acabfc989ec0ee46bebe640156cac53a3fa9124/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9bd3894bb8885b2b8f260b08d874a0ccc657c0ab/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.png',
+},
+},
+image: '',
+pretitle: 'Täglich öffnen',
+title: <>Die Glückbox</>,
+subtitle: 'Bis zu 15,000 EUR!',
+isSignIn: true,               
+buttons: {
+anon: {
+isModal: true,
+text: 'Anmelden',
+action: 'sign-up',
+},
+user: {
+text: 'Mehr erfahren',
+action: '/lucky-box',
+},
+},
+},
+//CAD
+{
+id: 'lucky-box',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK25pQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--326daa27975ae4cb8764bfe465cc98e035f17934/n1bet-lucky-box-season-2-animate-slider-1650x500px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ZpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--124864e6d584204f5aaa81a39d2994f51efe6618/n1bet-lucky-box-season-2-animate-slider-1650x500px.png', },
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ppQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4acabfc989ec0ee46bebe640156cac53a3fa9124/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9bd3894bb8885b2b8f260b08d874a0ccc657c0ab/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.png',
+},
+},
+image: '',
+pretitle: 'Open Daily',
+title: <>Lucky Box</>,
+subtitle: <>Up to 15,000 CAD!</>,
+isSignIn: true,               
+buttons: {
+anon: {
+isModal: true,
+text: 'Sign up',
+action: 'sign-up',
+},
+user: {
+text: 'Learn more',
+action: '/lucky-box',
+},
+},
+},
+//NZD
+{
+id: 'lucky-box',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK25pQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--326daa27975ae4cb8764bfe465cc98e035f17934/n1bet-lucky-box-season-2-animate-slider-1650x500px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ZpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--124864e6d584204f5aaa81a39d2994f51efe6618/n1bet-lucky-box-season-2-animate-slider-1650x500px.png', },
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ppQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4acabfc989ec0ee46bebe640156cac53a3fa9124/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9bd3894bb8885b2b8f260b08d874a0ccc657c0ab/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.png',
+},
+},
+image: '',
+pretitle: 'Open Daily',
+title: <>Lucky Box</>,
+subtitle: <>Up to 22,500 NZD!</>,
+isSignIn: true,               
+buttons: {
+anon: {
+isModal: true,
+text: 'Sign up',
+action: 'sign-up',
+},
+user: {
+text: 'Learn more',
+action: '/lucky-box',
+},
+},
+},
+//FI
+{
+id: 'lucky-box',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK25pQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--326daa27975ae4cb8764bfe465cc98e035f17934/n1bet-lucky-box-season-2-animate-slider-1650x500px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ZpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--124864e6d584204f5aaa81a39d2994f51efe6618/n1bet-lucky-box-season-2-animate-slider-1650x500px.png', },
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ppQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4acabfc989ec0ee46bebe640156cac53a3fa9124/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9bd3894bb8885b2b8f260b08d874a0ccc657c0ab/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.png',
+},
+},
+image: '',
+pretitle: 'Avaa päivittäin',
+title: <>Lucky Box</>,
+subtitle: 'Jopa 15 000 EUR!',
+isSignIn: true,               
+buttons: {
+anon: {
+isModal: true,
+text: 'Registrering',
+action: 'sign-up',
+},
+user: {
+text: 'Lue lisää',
+action: '/lucky-box',
+},
+},
+}, 
+//FR
+{
+id: 'lucky-box',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK25pQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--326daa27975ae4cb8764bfe465cc98e035f17934/n1bet-lucky-box-season-2-animate-slider-1650x500px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ZpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--124864e6d584204f5aaa81a39d2994f51efe6618/n1bet-lucky-box-season-2-animate-slider-1650x500px.png', },
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ppQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4acabfc989ec0ee46bebe640156cac53a3fa9124/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9bd3894bb8885b2b8f260b08d874a0ccc657c0ab/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.png',
+},
+},
+image: '',
+pretitle: 'Ouvrez tous les jours',
+title: <>Lucky Box</>,
+subtitle: 'Jusqu’à 22 500 CAD!',
+isSignIn: true,               
+buttons: {
+anon: {
+isModal: true,
+text: 'S’inscrire',
+action: 'sign-up',
+},
+user: {
+text: 'Pour en savoir plus',
+action: '/lucky-box',
+},
+},
+},
+//NO
+{
+id: 'lucky-box',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK25pQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--326daa27975ae4cb8764bfe465cc98e035f17934/n1bet-lucky-box-season-2-animate-slider-1650x500px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ZpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--124864e6d584204f5aaa81a39d2994f51efe6618/n1bet-lucky-box-season-2-animate-slider-1650x500px.png', },
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ppQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4acabfc989ec0ee46bebe640156cac53a3fa9124/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9bd3894bb8885b2b8f260b08d874a0ccc657c0ab/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.png',
+},
+},
+image: '',
+pretitle: 'Åpne daglig',
+title: <>Lucky Box</>,
+subtitle: 'Opptil 150 000 NOK!',
+isSignIn: true,               
+buttons: {
+anon: {
+isModal: true,
+text: 'Registrering',
+action: 'sign-up',
+},
+user: {
+text: 'Les mer',
+action: '/lucky-box',
+},
+},
+},
+//RUB
+{
+id: 'lucky-box',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK25pQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--326daa27975ae4cb8764bfe465cc98e035f17934/n1bet-lucky-box-season-2-animate-slider-1650x500px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ZpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--124864e6d584204f5aaa81a39d2994f51efe6618/n1bet-lucky-box-season-2-animate-slider-1650x500px.png', },
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2ppQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4acabfc989ec0ee46bebe640156cac53a3fa9124/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2JpQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9bd3894bb8885b2b8f260b08d874a0ccc657c0ab/n1bet-lucky-box-season-2-animate-mobile-x2-1040x640px.png',
+},
+},
+image: '',
+pretitle: 'Открывайте каждый день',
+title: <>Lucky Box</>,
+subtitle: 'до 1 050 000 RUB!',
+isSignIn: true,               
+buttons: {
+anon: {
+isModal: true,
+text: 'Войти',
+action: 'sign-up',
+},
+user: {
+text: 'Подробнее',
+action: '/lucky-box',
+},
+},
+}
+]}
+/>
+
+</>
+{/* Cashback */}
+<>
+<Components.Block
+templateName="home-bonuses"
+content={[
+//EN
+{
+id: 'pragmatic-cashback',
+background: {
+desktop: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMkw0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7dbe0e6c2870d34126b5815c62d13f12fb107732/n1-pragmatic-live-casback-promo-1616x500px-slider-dsktp.jpg',
+second:
+'',
+},
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlA0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--381784db2989a6ad33a4a6eb0526a2426c6c20e4/n1-pragmatic-live-casback-promo-x2-960x640px-slider-mob.jpg',
+second:
+'',
+},
+},
+image: '',
+pretitle: '',
+title: <>Pragmatic<br/> Cashback   </>,
+subtitle: 'Get 10% back daily!',
+isSignIn: true,
+buttons: {
+anon: {
+isModal: true,
+text: 'Sign Up',
+action: 'sign-up',
+},
+user: {
+text: 'Let`s Play',
+action: '/promotions',
+},
+},
+},
+//DE
+{
+id: 'pragmatic-cashback',
+background: {
+desktop: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMkw0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7dbe0e6c2870d34126b5815c62d13f12fb107732/n1-pragmatic-live-casback-promo-1616x500px-slider-dsktp.jpg',
+second:
+'',
+},
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlA0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--381784db2989a6ad33a4a6eb0526a2426c6c20e4/n1-pragmatic-live-casback-promo-x2-960x640px-slider-mob.jpg',
+second:
+'',
+},
+},
+image: '',
+pretitle: '',
+title: <>Pragmatic<br/> Cashback   </>,
+subtitle: 'Erhalten Sie täglich 10% zurück!',
+isSignIn: true,
+buttons: {
+anon: {
+isModal: true,
+text: 'Anmelden',
+action: 'sign-up',
+},
+user: {
+text: 'Los gehts',
+action: '/promotions',
+},
+},
+},
+//FI
+{
+id: 'pragmatic-cashback',
+background: {
+desktop: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMkw0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7dbe0e6c2870d34126b5815c62d13f12fb107732/n1-pragmatic-live-casback-promo-1616x500px-slider-dsktp.jpg',
+second:
+'',
+},
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlA0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--381784db2989a6ad33a4a6eb0526a2426c6c20e4/n1-pragmatic-live-casback-promo-x2-960x640px-slider-mob.jpg',
+second:
+'',
+},
+},
+image: '',
+pretitle: '',
+title: <>Pragmatic<br/> Cashback   </>,
+subtitle: 'Saa 10% takaisin päivittäin!',
+isSignIn: true,
+buttons: {
+anon: {
+isModal: true,
+text: 'Kirjaudu',
+action: 'sign-up',
+},
+user: {
+text: 'Peliä',
+action: '/promotions'
+},
+},
+},
+//FR
+{
+id: 'pragmatic-cashback',
+background: {
+desktop: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMkw0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7dbe0e6c2870d34126b5815c62d13f12fb107732/n1-pragmatic-live-casback-promo-1616x500px-slider-dsktp.jpg',
+second:
+'',
+},
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlA0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--381784db2989a6ad33a4a6eb0526a2426c6c20e4/n1-pragmatic-live-casback-promo-x2-960x640px-slider-mob.jpg',
+second:
+'',
+},
+},
+image: '',
+pretitle: '',
+title: <>Pragmatic<br/> Cashback   </>,
+subtitle: 'Obtenez 10 % de remise par jour!',
+isSignIn: true,
+buttons: {
+anon: {
+isModal: true,
+text: 'S’inscrire',
+action: 'sign-up',
+},
+user: {
+text: 'Jouons',
+action: '/promotions'
+},
+},
+},
+//NO
+{
+id: 'pragmatic-cashback',
+background: {
+desktop: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMkw0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7dbe0e6c2870d34126b5815c62d13f12fb107732/n1-pragmatic-live-casback-promo-1616x500px-slider-dsktp.jpg',
+second:
+'',
+},
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlA0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--381784db2989a6ad33a4a6eb0526a2426c6c20e4/n1-pragmatic-live-casback-promo-x2-960x640px-slider-mob.jpg',
+second:
+'',
+},
+},
+image: '',
+pretitle: '',
+title: <>Pragmatic<br/> Cashback   </>,
+subtitle: 'Få 10 % tilbake hver dag!',
+isSignIn: true,
+buttons: {
+anon: {
+isModal: true,
+text: 'Logg inn',
+action: 'sign-up',
+},
+user: {
+text: 'La oss spille',
+action: '/promotions'
+},
+},
+},
+//RU
+{
+id: 'pragmatic-cashback',
+background: {
+desktop: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMkw0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7dbe0e6c2870d34126b5815c62d13f12fb107732/n1-pragmatic-live-casback-promo-1616x500px-slider-dsktp.jpg',
+second:
+'',
+},
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlA0QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--381784db2989a6ad33a4a6eb0526a2426c6c20e4/n1-pragmatic-live-casback-promo-x2-960x640px-slider-mob.jpg',
+second:
+'',
+},
+},
+image: '',
+pretitle: '',
+title: <>Кэшбек<br/>Pragmatic</>,
+subtitle: 'Возвращайте 10% каждый день',
+isSignIn: true,
+buttons: {
+anon: {
+isModal: true,
+text: 'Войти',
+action: 'sign-up',
+},
+user: {
+text: 'Играть',
+action: '/promotions'
+},
+},
+},
+]}
+/>
+</>
+{/* Lucky Spin */}
+<>
+<Components.Block
+templateName="home-bonuses"
+content={[
+{
+id: 'lucky-spin',
+background: {
+desktop: {
+first: '/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNFpyQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--3ebe8b7f433a4bc68a64264ffe104ec84e71d2af/n1bet-lucky-spin-promo-1656x500px-slider-desktop-p2.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNFJyQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e926dc870480b871e4755dd5e6fcc9d245ffdb33/n1bet-lucky-spin-promo-1656x500px-slider-desktop-p1-cmprssd.png',
+},
+mobile: {
+first:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHRyQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--adc8450f706e68012ae05c08cac3e795b85a8cac/n1bet-lucky-spin-promo-x2-1040x640px-slider-mobile-p2.jpg',
+second:
+'/cms/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNGxyQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--77131c4f1307c4d3e04f218d44b9d09278e7556c/n1bet-lucky-spin-promo-x2-1040x640px-slider-mobile-p1-cmprssd.png',
+},
+},
+image: '',
+pretitle: 'Drehen und gewinnen!',
+title: 'Lucky Spin',
+subtitle: 'Gewinnen Sie bis zu 10.000 EUR!',
+isSignIn: true, 
+buttons: {
+anon: {
+isModal: true,
+text: 'Registrieren',
+action: 'sign-up',
+},
+user: {
+text: 'Mehr Info',
+action: '/lucky-spin',
+},
+},
+},
+]}
+/>
+</>
